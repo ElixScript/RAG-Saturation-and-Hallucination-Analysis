@@ -164,10 +164,10 @@ Percentage of incorrect or irrelevant citations relative to the answers provided
 
 | K  | ROUGE-1 | BLEU   | Citation Accuracy | Hallucination Rate |
 | -- | ------- | ------ | ----------------- | ------------------ |
-| 1  | 0.1842  | 0.0431 | 92.73%            | 7.27%              |
-| 3  | 0.2050  | 0.0607 | 88.89%            | 11.11%             |
-| 5  | 0.2011  | 0.0565 | 83.75%            | 16.25%             |
-| 10 | 0.1040  | 0.0428 | 31.40%            | 68.60%             |
+| 1  | 0.1870  | 0.0404 | 89.09%            | 10.91%             |
+| 3  | 0.2021  | 0.0575 | 86.11%            | 13.89%             |
+| 5  | 0.1984  | 0.0518 | 85.00%            | 15.00%             |
+| 10 | 0.1044  | 0.0419 | 31.40%            | 68.60%             |
 
 ---
 
@@ -178,20 +178,3 @@ Percentage of incorrect or irrelevant citations relative to the answers provided
 * Adding documents up to **K = 10** causes a significant decrease in answer quality.
 * The rate of **citation hallucination** increases drastically when the model receives too many reference documents.
 * This phenomenon indicates the presence of **noise injection** effect and the possibility of **Lost in the Middle**, which is a condition when the model struggles to utilize important information located in the middle of long contexts.
-
----
-
-## 👥 Group Members
-
-| Name                | Student ID         |
-| ------------------- | ------------------ |
-| Kosmas Rio Legowo   | 23/512012/PA/21863 |
-| Bagus Cipta Pratama | 23/516539/PA/22097 |
-| Tegar Prasetyo      | 23/520277/PA/22364 |
-
----
-
-## 🎓 Course
-
-**Selected Topics in Intelligent Systems**
-
